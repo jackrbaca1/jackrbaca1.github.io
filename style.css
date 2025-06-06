@@ -69,13 +69,24 @@ nav a:hover {
     background: #3498db;
     color: white;
     padding: 0.5rem 1rem;
+    margin-right: 10px;
     text-decoration: none;
     border-radius: 4px;
-    transition: background 0.3s;
+    transition: all 0.3s;
+}
+
+.project a.demo-link, .lab a.demo-link {
+    background: #2ecc71;
 }
 
 .project a:hover, .lab a:hover {
-    background: #2980b9;
+    opacity: 0.9;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.project a.demo-link:hover {
+    background: #27ae60;
 }
 
 footer {
